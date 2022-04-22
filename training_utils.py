@@ -43,9 +43,9 @@ class BERTClass(torch.nn.Module):
 
     def __init__(self,model_name):
         super(BERTClass, self).__init__()
-        self.l1 = transformers.BertModel.from_pretrained(model_name)
+        self.l1 = transformers.BertModel.from_pretrained(model_name,hidden_size)
         self.l2 = torch.nn.Dropout(0.2)
-        self.l3 = torch.nn.Linear(128,1)
+        self.l3 = torch.nn.Linear(hidden_size,1)
     
     def forward(self,ids,mask, token_type_ids):
         _ , output_1 = self.l1(ids, attention_mask = mask, token_type_ids = token_type_ids, return_dict=False)
