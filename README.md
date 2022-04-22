@@ -8,6 +8,8 @@ This is documentation
 
 📁 source
 
+The source code is contained within the Colab notebook named reddit_mental_health_src.ipynb
+
 
 📁 results:
 
