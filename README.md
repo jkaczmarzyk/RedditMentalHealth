@@ -4,7 +4,13 @@
 
 This work is part of a Colab Notebook, so you will need to upload the training_utils.py and dataset to a folder in Google Drive. 
 
-First you will need to mount your Drive. Please refer to the <a href="https://colab.research.google.com/drive/1srw_HFWQ2SMgmWIawucXfusGzrj1_U0q">example notebook</a> provided by Google.
+First you will need to mount your Drive. Please refer to the <a href="https://colab.research.google.com/drive/1srw_HFWQ2SMgmWIawucXfusGzrj1_U0q">example notebook</a> provided by Google. It should look like this:
+```
+import importlib.util
+import sys
+from google.colab import drive
+drive.mount('/content/drive/')
+```
 
 Make sure to set up a path the aforementioned folder like so:
 
