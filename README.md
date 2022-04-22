@@ -1,7 +1,6 @@
 # Reddit Mental Health during COVID-19 Pandemic
-# 
 
-Documentation:
+<h2>Documentation:</h2>
 
 
 This is documentation
