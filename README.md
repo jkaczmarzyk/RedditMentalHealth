@@ -13,9 +13,7 @@ The source code is contained within a Colab notebook which can also be found at 
 <h4>📁 results</h4>
 
 
--json outputs
-
--plots
+This folder contains the metrics of the training.
 
 
 <h4>📁 datasets</h4>
