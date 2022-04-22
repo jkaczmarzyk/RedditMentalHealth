@@ -2,8 +2,29 @@
 
 <h2>Documentation:</h2>
 
+This work is part of a Colab Notebook, so you will need to upload the training_utils.py and dataset to a folder in Google Drive. 
 
-This is documentation
+First you will need to mount your Drive. Please refer to the <a href="https://colab.research.google.com/drive/1srw_HFWQ2SMgmWIawucXfusGzrj1_U0q">example notebook</a> provided by Google.
+
+Make sure to set up a path the aforementioned folder like so:
+
+```
+sys.path.append('/content/drive/My Drive/reddit_mental_health')
+```
+
+You may have to perform some installs.
+```
+ may have to !pip install transformers
+# and then restart notebook
+
+!pip install transformers
+```
+
+Warnings were ignored as they clouded readability of some output. 
+```
+# ignore warnings
+warnings.filterwarnings("ignore")
+```
 
 <h4>📁 source</h4>
 
