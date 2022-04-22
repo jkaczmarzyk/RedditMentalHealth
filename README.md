@@ -25,7 +25,6 @@ You may have to perform some installs and restart the notebook.
 
 Warnings were ignored as they clouded readability of some output. 
 ```
-# ignore warnings
 warnings.filterwarnings("ignore")
 ```
 
