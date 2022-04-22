@@ -5,12 +5,12 @@
 
 This is documentation
 
-📁 source
+<h4>📁 source</h4>
 
 The source code is contained within the Colab notebook named reddit_mental_health_src.ipynb
 
 
-📁 results:
+<h4>📁 results</h4>
 
 
 -json outputs
@@ -18,7 +18,7 @@ The source code is contained within the Colab notebook named reddit_mental_healt
 -plots
 
 
-📁 datasets
+<h4>📁 datasets</h4>
 
 Dataset is from https://bitbucket.org/cauteruccio/reddit-dataset/src/master/
 
