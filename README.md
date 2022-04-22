@@ -20,7 +20,7 @@ The source code is contained within the Colab notebook named reddit_mental_healt
 
 <h4>📁 datasets</h4>
 
-Dataset is from https://bitbucket.org/cauteruccio/reddit-dataset/src/master/
+Datasets are from <a href="https://bitbucket.org/cauteruccio/reddit-dataset/src/master/">Francesco Cauteruccio</a>
 
-Used only the nyc dataset (American English)
+
 
