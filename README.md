@@ -18,7 +18,7 @@ This folder contains the metrics of the training.
 
 <h4>📁 datasets</h4>
 
-Datasets are from <a href="https://bitbucket.org/cauteruccio/reddit-dataset/src/master/">Francesco Cauteruccio</a>, used in his paper<br> <i> How dramatic events can affect emotionality in social posting: the impact of COVID-19 on Reddit</i>
+Datasets are from <a href="https://bitbucket.org/cauteruccio/reddit-dataset/src/master/">Francesco Cauteruccio</a>, used in his paper <i> How dramatic events can affect emotionality in social posting: the impact of COVID-19 on Reddit</i>
 
 
 
