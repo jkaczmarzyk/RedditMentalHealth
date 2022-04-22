@@ -13,7 +13,7 @@ The source code is contained within a Colab notebook which can also be found at 
 <h4>📁 results</h4>
 
 
-This folder contains the metrics of the training.
+This folder contains comparison plots and the metrics of the training.
 
 
 <h4>📁 datasets</h4>
