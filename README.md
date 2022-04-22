@@ -11,7 +11,13 @@ Folders:
 Source code
 
 
-Results files
+Results:
+
+
+json outputs
+
+
+plots
 
 
 Datase
