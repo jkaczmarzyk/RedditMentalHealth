@@ -14,9 +14,9 @@ Source code
 Results:
 
 
-json outputs
+-json outputs
 
-plots
+-plots
 
 
 Datase
