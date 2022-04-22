@@ -18,11 +18,8 @@ Next, set up a path the aforementioned folder like so:
 sys.path.append('/content/drive/My Drive/reddit_mental_health')
 ```
 
-You may have to perform some installs.
+You may have to perform some installs and restart the notebook.
 ```
- may have to !pip install transformers
-# and then restart notebook
-
 !pip install transformers
 ```
 
@@ -32,6 +29,15 @@ Warnings were ignored as they clouded readability of some output.
 warnings.filterwarnings("ignore")
 ```
 
+If you have a Colab Pro account, you have access to faste GPUs with the following code:
+```
+gpu_info = !nvidia-smi
+gpu_info = '\n'.join(gpu_info)
+if gpu_info.find('failed') >= 0:
+  print('Not connected to a GPU')
+else:
+  print(gpu_info)
+```
 
 <h2>Other Folders:</h2>
 
