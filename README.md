@@ -7,7 +7,7 @@ This is documentation
 
 <h4>📁 source</h4>
 
-The source code is contained within the Colab notebook named reddit_mental_health_src.ipynb
+The source code is contained within the Colab notebook which can also be found at <a href="https://colab.research.google.com/drive/1SkrRq0HywnwgoKh-Lzs9qq5UoNL5AdDW?usp=sharing"> this link</a>.
 
 
 <h4>📁 results</h4>
