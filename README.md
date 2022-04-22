@@ -5,13 +5,13 @@ Documentation:
 
 This is documentation
 
-Folders:
+📁 folders:
 
 
-Source code
+📁 source
 
 
-Results:
+📁 results:
 
 
 -json outputs
@@ -19,6 +19,6 @@ Results:
 -plots
 
 
-Datase
+📁 datasets
 
 
