@@ -43,9 +43,9 @@ class BERTClass(torch.nn.Module):
 
     def __init__(self,model_name):
         super(BERTClass, self).__init__()
-        self.l1 = transformers.BertModel.from_pretrained(model_name,hidden_size)
+        self.l1 = transformers.BertModel.from_pretrained(model_name)
         self.l2 = torch.nn.Dropout(0.2)
-        self.l3 = torch.nn.Linear(hidden_size,1)
+        self.l3 = torch.nn.Linear(128,1)
     
     def forward(self,ids,mask, token_type_ids):
         _ , output_1 = self.l1(ids, attention_mask = mask, token_type_ids = token_type_ids, return_dict=False)
@@ -72,7 +72,7 @@ def validation(epoch,hyperparameters,device,training_loader,model):
             targets = targets.resize(s,1)
             outputs = model(ids,mask,token_type_ids)
 
-            t = targets.cpu().detach().numpy()
+            t = (targets > 0.5).cpu().detach().numpy()
             for item in t:
                 fin_targets.append(item[0])
             
@@ -133,7 +133,7 @@ def train(epoch,hyperparameters,device,training_loader,validation_loader,model,o
 
         step_loss = loss.item()
 
-        t = targets.cpu().detach().numpy()
+        t = (targets > 0.5).cpu().detach().numpy()
 
         # makes outputs binary 
         o = (torch.sigmoid(outputs) > 0.5).float().cpu().detach().numpy()
