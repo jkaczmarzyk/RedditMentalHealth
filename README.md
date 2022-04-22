@@ -23,12 +23,18 @@ You may have to perform some installs and restart the notebook.
 !pip install transformers
 ```
 
-Warnings were ignored as they clouded readability of some output. 
+Warnings were suppressed as they clouded readability of some output. 
 ```
 warnings.filterwarnings("ignore")
 ```
 
-If you have a Colab Pro account, you have access to faste GPUs with the following code:
+Make sure to fill in the appropriate BERT model name and hidden size
+```
+mdl_name = 'google/bert_uncased_L-2_H-128_A-2'
+hidden_size = 128
+```
+
+If you have a Colab Pro account or greater, you have access to faster GPUs with the following code:
 ```
 gpu_info = !nvidia-smi
 gpu_info = '\n'.join(gpu_info)
@@ -36,6 +42,11 @@ if gpu_info.find('failed') >= 0:
   print('Not connected to a GPU')
 else:
   print(gpu_info)
+```
+and then later you load the chosen device as:
+
+```
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 ```
 
 <h2>Other Folders:</h2>
