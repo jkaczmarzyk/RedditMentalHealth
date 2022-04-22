@@ -20,7 +20,7 @@ The source code is contained within the Colab notebook named reddit_mental_healt
 
 <h4>📁 datasets</h4>
 
-Datasets are from <a href="https://bitbucket.org/cauteruccio/reddit-dataset/src/master/">Francesco Cauteruccio</a>
+Datasets are from <a href="https://bitbucket.org/cauteruccio/reddit-dataset/src/master/">Francesco Cauteruccio</a>, used in his paper <i> How dramatic events can affect emotionality in social posting: the impact of COVID-19 on Reddit</i>
 
 
 
