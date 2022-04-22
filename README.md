@@ -1,4 +1,5 @@
-# RedditMentalHealth
+# Reddit Mental Health during COVID-19 Pandemic
+# 
 
 Documentation:
 
