@@ -12,7 +12,7 @@ from google.colab import drive
 drive.mount('/content/drive/')
 ```
 
-Next, set up a path the aforementioned folder like so:
+Next, set up a path in the aforementioned folder like so:
 
 ```
 sys.path.append('/content/drive/My Drive/reddit_mental_health')
